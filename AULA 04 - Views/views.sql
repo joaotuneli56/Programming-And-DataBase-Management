@@ -73,18 +73,20 @@ FROM EMPLOYEES_VU;
 -- PARTE 2
 
 CREATE OR REPLACE VIEW  DEPT50
- (EMPNO, EMPLOYEE, DEPTNO)
 AS 
 SELECT 
-    employee_id,
-    last_name,
-    department_id
+    employee_id EMPNO,
+    last_name EMPLOYEE,
+    department_id DEPTON
  FROM employees
  WHERE department_id = 50
- WITH READ ONLY ;
+ WITH check option ;
  
 DESCRIBE DEPT50;
 SELECT * FROM DEPT50;
+
+-- NÃO É POSSIVEL FAZER INSERT COM VISÃO
+--
 
     
 
