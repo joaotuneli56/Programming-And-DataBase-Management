@@ -2,7 +2,7 @@
 
 ### Segue link de anotação :point_down:
 
-[Anotações](https://www.notion.so/Banco-de-Dados-710c8573830e4dc1a41779df68387982).
+[Anotações](https://www.notion.so/Programing-Data-Base-2e0b7c8e4c234994afd714b56236f794).
 
 ### Modelo logico do banco de dados utilizado no curso
 
